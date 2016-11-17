@@ -1,0 +1,58 @@
+{
+    "name": "rinvex/laravel-authy",
+    "description": "Rinvex Authy is a simple wrapper for Authy TOTP, the best rated Two-Factor Authentication service for consumers, simplest 2fa Rest API for developers and a strong authentication platform for the enterprise.",
+    "keywords": [
+        "sms",
+        "call",
+        "authy",
+        "message",
+        "security",
+        "twofactor",
+        "verification",
+        "authentication",
+        "automated",
+        "register",
+        "rinvex",
+        "phone",
+        "token"
+    ],
+    "license": "MIT",
+    "homepage": "https://rinvex.com",
+    "support": {
+        "email": "help@rinvex.com",
+        "issues": "https://github.com/rinvex/laravel-authy/issues",
+        "source": "https://github.com/rinvex/laravel-authy",
+        "docs": "https://github.com/rinvex/laravel-authy/README.md"
+    },
+    "authors": [
+        {
+            "name": "Rinvex LLC",
+            "homepage": "https://rinvex.com",
+            "email": "help@rinvex.com"
+        },
+        {
+            "name": "Abdelrahman Omran",
+            "homepage": "https://omranic.com",
+            "email": "me@omranic.com",
+            "role": "Project Lead"
+        },
+        {
+            "name": "The Generous Laravel Community",
+            "homepage": "https://github.com/rinvex/laravel-authy/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "rinvex/authy": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rinvex\\Authy\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
