@@ -9,8 +9,8 @@ This package is just a Laravel wrapper for [`rinvex/authy`](https://github.com/r
 [![VersionEye Dependencies](https://img.shields.io/versioneye/d/php/rinvex:authy.svg?label=Dependencies&style=flat-square)](https://www.versioneye.com/php/rinvex:authy/)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/rinvex/laravel-authy.svg?label=Scrutinizer&style=flat-square)](https://scrutinizer-ci.com/g/rinvex/laravel-authy/)
 [![Code Climate](https://img.shields.io/codeclimate/github/rinvex/laravel-authy.svg?label=CodeClimate&style=flat-square)](https://codeclimate.com/github/rinvex/laravel-authy)
-[![StyleCI](https://styleci.io/repos/66008159/shield)](https://styleci.io/repos/66008159)
-[![SensioLabs Insight](https://img.shields.io/sensiolabs/i/e361e7c2-c0ae-469d-8a53-6a2433e7aaad.svg?label=SensioLabs&style=flat-square)](https://insight.sensiolabs.com/projects/e361e7c2-c0ae-469d-8a53-6a2433e7aaad)
+[![StyleCI](https://styleci.io/repos/73999588/shield)](https://styleci.io/repos/73999588)
+[![SensioLabs Insight](https://img.shields.io/sensiolabs/i/4fe5776e-3d6b-466d-b49c-0e7fcee53250.svg?label=SensioLabs&style=flat-square)](https://insight.sensiolabs.com/projects/4fe5776e-3d6b-466d-b49c-0e7fcee53250)
 
 ![Rinvex Authy](https://rinvex.com/assets/frontend/layout/img/products/rinvex-authy.png "Rinvex Authy")
 
@@ -26,8 +26,6 @@ This package is just a Laravel wrapper for [`rinvex/authy`](https://github.com/r
 - [About Rinvex](#about-rinvex)
 - [Trademarks](#trademarks)
 - [License](#license)
-
-![Authy Notifications](https://rinvex.com/assets/frontend/layout/img/products/rinvex-authy.png "Authy Notification")
 
 
 ## Usage
