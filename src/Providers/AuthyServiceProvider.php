@@ -29,8 +29,8 @@ class AuthyServiceProvider extends ServiceProvider
     public function register()
     {
         $httpClient = new HttpClient();
-        $mode = config('services.authy.mode');
-        $key = config('services.authy.keys.'.$mode);
+        $mode       = config('services.authy.mode');
+        $key        = config('services.authy.keys.'.$mode);
 
         $this->app->singleton('rinvex.authy.app', function ($app) use ($httpClient, $key, $mode) {
             return new AuthyApp($httpClient, $key, $mode);
