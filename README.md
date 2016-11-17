@@ -6,7 +6,7 @@ This package is just a Laravel wrapper for [`rinvex/authy`](https://github.com/r
 
 [![Packagist](https://img.shields.io/packagist/v/rinvex/laravel-authy.svg?label=Packagist&style=flat-square)](https://packagist.org/packages/rinvex/laravel-authy)
 [![License](https://img.shields.io/packagist/l/rinvex/laravel-authy.svg?label=License&style=flat-square)](https://github.com/rinvex/laravel-authy/blob/develop/LICENSE)
-[![VersionEye Dependencies](https://img.shields.io/versioneye/d/php/rinvex:authy.svg?label=Dependencies&style=flat-square)](https://www.versioneye.com/php/rinvex:authy/)
+[![VersionEye Dependencies](https://img.shields.io/versioneye/d/php/rinvex:laravel-authy.svg?label=Dependencies&style=flat-square)](https://www.versioneye.com/php/rinvex:laravel-authy/)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/rinvex/laravel-authy.svg?label=Scrutinizer&style=flat-square)](https://scrutinizer-ci.com/g/rinvex/laravel-authy/)
 [![Code Climate](https://img.shields.io/codeclimate/github/rinvex/laravel-authy.svg?label=CodeClimate&style=flat-square)](https://codeclimate.com/github/rinvex/laravel-authy)
 [![StyleCI](https://styleci.io/repos/73999588/shield)](https://styleci.io/repos/73999588)
