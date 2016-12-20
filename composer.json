@@ -50,11 +50,16 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^5.4.0",
-        "graham-campbell/testbench": "^3.2.0"
+        "illuminate/container": "^5.1.0"
     },
     "autoload": {
         "psr-4": {
             "Rinvex\\Authy\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rinvex\\Authy\\Test\\": "tests"
         }
     },
     "config": {
