@@ -24,6 +24,13 @@ use Illuminate\Support\ServiceProvider;
 class AuthyServiceProvider extends ServiceProvider
 {
     /**
+     * Indicates if loading of the provider is deferred.
+     *
+     * @var bool
+     */
+    protected $defer = true;
+
+    /**
      * {@inheritdoc}
      */
     public function register()
@@ -46,5 +53,15 @@ class AuthyServiceProvider extends ServiceProvider
         $this->app->alias('rinvex.authy.app', AuthyApp::class);
         $this->app->alias('rinvex.authy.user', AuthyUser::class);
         $this->app->alias('rinvex.authy.token', AuthyToken::class);
+    }
+
+    /**
+     * Get the services provided by the provider.
+     *
+     * @return array
+     */
+    public function provides()
+    {
+        return ['rinvex.authy.app', 'rinvex.authy.user', 'rinvex.authy.token'];
     }
 }
