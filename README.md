@@ -2,12 +2,13 @@
 
 This package is just a Laravel wrapper for [`rinvex/authy`](https://github.com/rinvex/authy).
 
-**Rinvex Authy** is a simple wrapper for @Authy TOTP API, the best rated Two-Factor Authentication service for consumers, simplest 2fa Rest API for developers and a strong authentication platform for the enterprise.
+**Rinvex Authy** is a simple wrapper for Authy TOTP API, the best rated Two-Factor Authentication service for consumers, simplest 2fa Rest API for developers and a strong authentication platform for the enterprise.
 
 [![Packagist](https://img.shields.io/packagist/v/rinvex/laravel-authy.svg?label=Packagist&style=flat-square)](https://packagist.org/packages/rinvex/laravel-authy)
 [![VersionEye Dependencies](https://img.shields.io/versioneye/d/php/rinvex:laravel-authy.svg?label=Dependencies&style=flat-square)](https://www.versioneye.com/php/rinvex:laravel-authy/)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/rinvex/laravel-authy.svg?label=Scrutinizer&style=flat-square)](https://scrutinizer-ci.com/g/rinvex/laravel-authy/)
 [![Code Climate](https://img.shields.io/codeclimate/github/rinvex/laravel-authy.svg?label=CodeClimate&style=flat-square)](https://codeclimate.com/github/rinvex/laravel-authy)
+[![Travis](https://img.shields.io/travis/rinvex/laravel-authy.svg?label=TravisCI&style=flat-square)](https://travis-ci.org/rinvex/laravel-authy)
 [![SensioLabs Insight](https://img.shields.io/sensiolabs/i/4fe5776e-3d6b-466d-b49c-0e7fcee53250.svg?label=SensioLabs&style=flat-square)](https://insight.sensiolabs.com/projects/4fe5776e-3d6b-466d-b49c-0e7fcee53250)
 [![StyleCI](https://styleci.io/repos/73999588/shield)](https://styleci.io/repos/73999588)
 [![License](https://img.shields.io/packagist/l/rinvex/laravel-authy.svg?label=License&style=flat-square)](https://github.com/rinvex/laravel-authy/blob/develop/LICENSE)
@@ -19,6 +20,7 @@ This package is just a Laravel wrapper for [`rinvex/authy`](https://github.com/r
 
 - [Usage](#usage)
 - [Installation](#installation)
+- [Upgrade](#upgrade)
 - [Changelog](#changelog)
 - [Support](#support)
 - [Contributing & Protocols](#contributing--protocols)
@@ -105,27 +107,28 @@ $errors = $tokenVerified->errors(); // Get response errors
 
     ```php
     'authy' => [
-        'mode' => env('AUTHY_MODE'),
-        'keys' => [
-            'production' => env('AUTHY_PRODUCTION_KEY'),
-            'sandbox' => env('AUTHY_SANDBOX_KEY'),
-        ],
+        'secret' => env('AUTHY_SECRET'),
     ],
     ```
 
-5. If you haven't already: Register an [Authy](https://www.authy.com) account -> Sign in -> Access [dashboard](https://dashboard.authy.com) -> Create new application -> Copy your API keys (you've two keys, one for production & another for testing/sandbox)
+5. If you haven't already: Register an [Authy](https://www.authy.com) account -> Sign in -> Access [dashboard](https://dashboard.authy.com) -> Create new application -> Copy your API Secret key
 
 6. If you don't have the following lines already, add it to your project's `.env` file, at the end:
 
     ```ini
-    AUTHY_MODE=production
-    AUTHY_PRODUCTION_KEY=AuthyProductionKeyHere
-    AUTHY_SANDBOX_KEY=AuthySandboxKeyHere
+    AUTHY_SECRET=AuthySecretKey
     ```
 
-    > **Note:** make sure to replace `AuthyProductionKeyHere` & `AuthySandboxKeyHere` with your keys from the previous step.
+    > **Note:** make sure to replace `AuthySecretKey` with your key from the previous step.
 
 7. Done! You can refer to [Usage](#usage) again.
+
+
+## Upgrade
+
+- **Upgrading To `v2.x` From `v1.x`**
+
+  API implementation is 100% backword compatible, but sandbox API has been dropped since it's officially deprecated. Also note that PHP7 is now required. Lastly the config options has been changed from `services.authy.mode`, `services.authy.keys.production`, and `services.authy.keys.sandbox` to only one key `services.authy.secret` for ease of use and consistency, accordingly the environment variables `AUTHY_MODE`, `AUTHY_PRODUCTION_KEY`, and `AUTHY_SANDBOX_KEY` are replaced with only one environment variable `AUTHY_SECRET`. 
 
 
 ## Changelog
@@ -151,11 +154,17 @@ Bug reports, feature requests, and pull requests are very welcome.
 - [Versioning](CONTRIBUTING.md#versioning)
 - [Pull Requests](CONTRIBUTING.md#pull-requests)
 - [Coding Standards](CONTRIBUTING.md#coding-standards)
+- [Feature Requests](CONTRIBUTING.md#feature-requests)
+- [Git Flow](CONTRIBUTING.md#git-flow)
 
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within this project, please send an e-mail to help@rinvex.com. All security vulnerabilities will be promptly addressed.
+We want to ensure that this package is secure for everyone. If you've discovered a security vulnerability in this package, we appreciate your help in disclosing it to us in a [responsible manner](https://en.wikipedia.org/wiki/Responsible_disclosure).
+
+Publicly disclosing a vulnerability can put the entire community at risk. If you've discovered a security concern, please email us at [security@rinvex.com](mailto:security@rinvex.com). We'll work with you to make sure that we understand the scope of the issue, and that we fully address your concern. We consider correspondence sent to [security@rinvex.com](mailto:security@rinvex.com) our highest priority, and work to address any issues that arise as quickly as possible.
+
+After a security vulnerability has been corrected, a security hotfix release will be deployed as soon as possible.
 
 
 ## About Rinvex
@@ -173,4 +182,4 @@ Rinvex is a software solutions startup, specialized in integrated enterprise sol
 
 This software is released under [The MIT License (MIT)](LICENSE).
 
-(c) 2016 Rinvex LLC, Some rights reserved.
+(c) 2016-2017 Rinvex LLC, Some rights reserved.
