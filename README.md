@@ -105,25 +105,19 @@ $errors = $tokenVerified->errors(); // Get response errors
 
     ```php
     'authy' => [
-        'mode' => env('AUTHY_MODE'),
-        'keys' => [
-            'production' => env('AUTHY_PRODUCTION_KEY'),
-            'sandbox' => env('AUTHY_SANDBOX_KEY'),
-        ],
+        'secret' => env('AUTHY_SECRET'),
     ],
     ```
 
-5. If you haven't already: Register an [Authy](https://www.authy.com) account -> Sign in -> Access [dashboard](https://dashboard.authy.com) -> Create new application -> Copy your API keys (you've two keys, one for production & another for testing/sandbox)
+5. If you haven't already: Register an [Authy](https://www.authy.com) account -> Sign in -> Access [dashboard](https://dashboard.authy.com) -> Create new application -> Copy your API Secret key
 
 6. If you don't have the following lines already, add it to your project's `.env` file, at the end:
 
     ```ini
-    AUTHY_MODE=production
-    AUTHY_PRODUCTION_KEY=AuthyProductionKeyHere
-    AUTHY_SANDBOX_KEY=AuthySandboxKeyHere
+    AUTHY_SECRET=AuthySecretKey
     ```
 
-    > **Note:** make sure to replace `AuthyProductionKeyHere` & `AuthySandboxKeyHere` with your keys from the previous step.
+    > **Note:** make sure to replace `AuthySecretKey` with your key from the previous step.
 
 7. Done! You can refer to [Usage](#usage) again.
 
