@@ -20,6 +20,7 @@ This package is just a Laravel wrapper for [`rinvex/authy`](https://github.com/r
 
 - [Usage](#usage)
 - [Installation](#installation)
+- [Upgrade](#upgrade)
 - [Changelog](#changelog)
 - [Support](#support)
 - [Contributing & Protocols](#contributing--protocols)
@@ -121,6 +122,13 @@ $errors = $tokenVerified->errors(); // Get response errors
     > **Note:** make sure to replace `AuthySecretKey` with your key from the previous step.
 
 7. Done! You can refer to [Usage](#usage) again.
+
+
+## Upgrade
+
+- **Upgrading To `v2.x` From `v1.x`**
+
+  API implementation is 100% backword compatible, but sandbox API has been dropped since it's officially deprecated. Also note that PHP7 is now required. Lastly the config options has been changed from `services.authy.mode`, `services.authy.keys.production`, and `services.authy.keys.sandbox` to only one key `services.authy.secret` for ease of use and consistency, accordingly the environment variables `AUTHY_MODE`, `AUTHY_PRODUCTION_KEY`, and `AUTHY_SANDBOX_KEY` are replaced with only one environment variable `AUTHY_SECRET`. 
 
 
 ## Changelog
