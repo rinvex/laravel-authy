@@ -5,8 +5,8 @@ linting: true
 enabled:
   - not_operator_with_successor_space
   - no_short_echo_tag
+  - unalign_double_arrow
 
 disabled:
   - ordered_imports
   - phpdoc_no_package
-  - align_double_arrow
