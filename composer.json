@@ -46,11 +46,11 @@
         "php": "^7.0.0",
         "rinvex/authy": "^2.0.0",
         "guzzlehttp/guzzle": "^6.0.0",
-        "illuminate/support": "~5.4.0"
+        "illuminate/support": "~5.4.0|~5.5.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7.0",
-        "illuminate/container": "~5.4.0"
+        "illuminate/container": "~5.4.0|~5.5.0"
     },
     "autoload": {
         "psr-4": {
