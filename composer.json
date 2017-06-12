@@ -68,6 +68,16 @@
     "extra": {
         "branch-alias": {
             "dev-master": "2.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Rinvex\\Authy\\Providers\\AuthyServiceProvider"
+            ],
+            "aliases": {
+                "AuthyApp": "Rinvex\\Authy\\Facades\\AuthyApp",
+                "AuthyUser": "Rinvex\\Authy\\Facades\\AuthyUser",
+                "AuthyToken": "Rinvex\\Authy\\Facades\\AuthyToken"
+            }
         }
     },
     "minimum-stability": "dev",
