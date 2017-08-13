@@ -91,19 +91,7 @@ $errors = $tokenVerified->errors(); // Get response errors
     composer require rinvex/laravel-authy
     ```
 
-2. Open `config/app.php` and add the following service provider to the `providers` array:
-    ```php
-    Rinvex\Authy\Providers\AuthyServiceProvider::class,
-    ```
-
-3. In the same file `config/app.php` add the following facades to the `aliases` array:
-    ```php
-    'AuthyApp' => Rinvex\Authy\Facades\AuthyApp::class,
-    'AuthyToken' => Rinvex\Authy\Facades\AuthyToken::class,
-    'AuthyUser' => Rinvex\Authy\Facades\AuthyUser::class,
-    ```
-
-4. If you don't have the following lines already, add it to your `config/services.php` file, before the end of the array:
+2. If you don't have the following lines already, add it to your `config/services.php` file, before the end of the array:
 
     ```php
     'authy' => [
@@ -111,9 +99,9 @@ $errors = $tokenVerified->errors(); // Get response errors
     ],
     ```
 
-5. If you haven't already: Register an [Authy](https://www.authy.com) account -> Sign in -> Access [dashboard](https://dashboard.authy.com) -> Create new application -> Copy your API Secret key
+3. If you haven't already: Register an [Authy](https://www.authy.com) account -> Sign in -> Access [dashboard](https://dashboard.authy.com) -> Create new application -> Copy your API Secret key
 
-6. If you don't have the following lines already, add it to your project's `.env` file, at the end:
+4. If you don't have the following lines already, add it to your project's `.env` file, at the end:
 
     ```ini
     AUTHY_SECRET=AuthySecretKey
@@ -121,7 +109,7 @@ $errors = $tokenVerified->errors(); // Get response errors
 
     > **Note:** make sure to replace `AuthySecretKey` with your key from the previous step.
 
-7. Done! You can refer to [Usage](#usage) again.
+5. Done! You can refer to [Usage](#usage) again.
 
 
 ## Upgrade
