@@ -59,7 +59,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Rinvex\\Authy\\Test\\": "tests"
+            "Rinvex\\Authy\\Tests\\": "tests"
         }
     },
     "config": {
