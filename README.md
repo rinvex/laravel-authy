@@ -8,7 +8,6 @@ This package is just a Laravel wrapper for [`rinvex/authy`](https://github.com/r
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/rinvex/laravel-authy.svg?label=Scrutinizer&style=flat-square)](https://scrutinizer-ci.com/g/rinvex/laravel-authy/)
 [![Code Climate](https://img.shields.io/codeclimate/github/rinvex/laravel-authy.svg?label=CodeClimate&style=flat-square)](https://codeclimate.com/github/rinvex/laravel-authy)
 [![Travis](https://img.shields.io/travis/rinvex/laravel-authy.svg?label=TravisCI&style=flat-square)](https://travis-ci.org/rinvex/laravel-authy)
-[![SensioLabs Insight](https://img.shields.io/sensiolabs/i/4fe5776e-3d6b-466d-b49c-0e7fcee53250.svg?label=SensioLabs&style=flat-square)](https://insight.sensiolabs.com/projects/4fe5776e-3d6b-466d-b49c-0e7fcee53250)
 [![StyleCI](https://styleci.io/repos/73999588/shield)](https://styleci.io/repos/73999588)
 [![License](https://img.shields.io/packagist/l/rinvex/laravel-authy.svg?label=License&style=flat-square)](https://github.com/rinvex/laravel-authy/blob/develop/LICENSE)
 
