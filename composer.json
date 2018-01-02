@@ -43,7 +43,7 @@
         }
     ],
     "require": {
-        "php": "^7.0.0",
+        "php": "^7.1.0",
         "rinvex/authy": "^2.0.0",
         "guzzlehttp/guzzle": "^6.0.0",
         "illuminate/support": "~5.5.0",
