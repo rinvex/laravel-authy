@@ -22,7 +22,7 @@ This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 - Commit first stable release
 
 ## v0.0.1 - 2016-11-17
-- Commit first draft
+- Tag first release
 
 [v2.0.1]: https://github.com/rinvex/laravel-authy/compare/v2.0.0...v2.0.1
 [v2.0.0]: https://github.com/rinvex/laravel-authy/compare/v1.0.0...v2.0.0
