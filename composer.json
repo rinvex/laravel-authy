@@ -43,14 +43,15 @@
         }
     ],
     "require": {
-        "php": "^7.0.0",
-        "rinvex/authy": "^2.0.0",
+        "php": "^7.1.3",
         "guzzlehttp/guzzle": "^6.0.0",
-        "illuminate/support": "~5.1.0|~5.2.0|~5.3.0|~5.4.0"
+        "illuminate/support": "~5.6.0",
+        "rinvex/authy": "^2.0.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.4.0",
-        "illuminate/container": "~5.1.0|~5.2.0|~5.3.0|~5.4.0"
+        "codedungeon/phpunit-result-printer": "^0.6.0",
+        "illuminate/container": "~5.6.0",
+        "phpunit/phpunit": "^7.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -59,15 +60,27 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Rinvex\\Authy\\Test\\": "tests"
+            "Rinvex\\Authy\\Tests\\": "tests"
         }
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
     },
     "extra": {
         "branch-alias": {
             "dev-master": "2.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Rinvex\\Authy\\Providers\\AuthyServiceProvider"
+            ],
+            "aliases": {
+                "AuthyApp": "Rinvex\\Authy\\Facades\\AuthyApp",
+                "AuthyUser": "Rinvex\\Authy\\Facades\\AuthyUser",
+                "AuthyToken": "Rinvex\\Authy\\Facades\\AuthyToken"
+            }
         }
     },
     "minimum-stability": "dev",
