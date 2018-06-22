@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rinvex\Authy\Tests;
+namespace Rinvex\Authy\Tests\Integration;
 
 use ReflectionClass;
 use PHPUnit\Framework\TestCase;
