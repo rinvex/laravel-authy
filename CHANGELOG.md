@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 
 
+## [v3.0.1] - 2018-09-22
+- Update travis php versions
+- Drop StyleCI multi-language support (paid feature now!)
+- Update composer dependencies
+- Prepare and tweak testing configuration
+- Highlight variables in strings explicitly
+- Update StyleCI options
+- Update PHPUnit options
+
 ## [v3.0.0] - 2018-02-18
 - Update supplementary files
 - Update composer dependencies
@@ -35,6 +44,7 @@ This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 ## v0.0.1 - 2016-11-17
 - Tag first release
 
+[v3.0.1]: https://github.com/rinvex/laravel-authy/compare/v3.0.0...v3.0.1
 [v3.0.0]: https://github.com/rinvex/laravel-authy/compare/v2.0.1...v3.0.0
 [v2.0.1]: https://github.com/rinvex/laravel-authy/compare/v2.0.0...v2.0.1
 [v2.0.0]: https://github.com/rinvex/laravel-authy/compare/v1.0.0...v2.0.0
