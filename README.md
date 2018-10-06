@@ -79,7 +79,7 @@ $item = $tokenVerified->get('item'); // Get response body item
 $errors = $tokenVerified->errors(); // Get response errors
 ```
 
-> **Note:** All authy requests returns authy response, with a unified interface for your convenience, so you can interact with all responses the same way as above.
+> **Note:** All authy requests return authy response, with a unified interface for your convenience, so you can interact with all responses the same way as above.
 
 
 ## Installation
@@ -89,7 +89,7 @@ $errors = $tokenVerified->errors(); // Get response errors
     composer require rinvex/laravel-authy
     ```
 
-2. If you don't have the following lines already, add it to your `config/services.php` file, before the end of the array:
+2. If you don't have the following lines already, add them to your `config/services.php` file, before the end of the array:
 
     ```php
     'authy' => [
@@ -99,7 +99,7 @@ $errors = $tokenVerified->errors(); // Get response errors
 
 3. If you haven't already: Register an [Authy](https://www.authy.com) account -> Sign in -> Access [dashboard](https://dashboard.authy.com) -> Create new application -> Copy your API Secret key
 
-4. If you don't have the following lines already, add it to your project's `.env` file, at the end:
+4. If you don't have the following lines already, add them to your project's `.env` file, at the end:
 
     ```ini
     AUTHY_SECRET=AuthySecretKey
@@ -114,7 +114,7 @@ $errors = $tokenVerified->errors(); // Get response errors
 
 - **Upgrading To `v2.x` From `v1.x`**
 
-  API implementation is 100% backword compatible, but sandbox API has been dropped since it's officially deprecated. Also note that PHP7 is now required. Lastly the config options has been changed from `services.authy.mode`, `services.authy.keys.production`, and `services.authy.keys.sandbox` to only one key `services.authy.secret` for ease of use and consistency, accordingly the environment variables `AUTHY_MODE`, `AUTHY_PRODUCTION_KEY`, and `AUTHY_SANDBOX_KEY` are replaced with only one environment variable `AUTHY_SECRET`.
+  API implementation is 100% backward compatible, but sandbox API has been dropped since it's officially deprecated. Also note that PHP7 is now required. Lastly the config options has been changed from `services.authy.mode`, `services.authy.keys.production`, and `services.authy.keys.sandbox` to only one key `services.authy.secret` for ease of use and consistency, accordingly the environment variables `AUTHY_MODE`, `AUTHY_PRODUCTION_KEY`, and `AUTHY_SANDBOX_KEY` are replaced with only one environment variable `AUTHY_SECRET`.
 
 
 ## Changelog
