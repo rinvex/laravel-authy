@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 
 
+## [v4.0.1] - 2018-12-22
+- Update composer dependencies
+- Add PHP 7.3 support to travis
+
 ## [v4.0.0] - 2018-10-01
 - Enforce Consistency
 - Support Laravel 5.7+
@@ -48,6 +52,7 @@ This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 ## v0.0.1 - 2016-11-17
 - Tag first release
 
+[v4.0.1]: https://github.com/rinvex/laravel-authy/compare/v4.0.0...v4.0.1
 [v4.0.0]: https://github.com/rinvex/laravel-authy/compare/v3.0.1...v4.0.0
 [v3.0.1]: https://github.com/rinvex/laravel-authy/compare/v3.0.0...v3.0.1
 [v3.0.0]: https://github.com/rinvex/laravel-authy/compare/v2.0.1...v3.0.0
