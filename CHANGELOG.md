@@ -61,6 +61,7 @@ This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 ## v0.0.1 - 2016-11-17
 - Tag first release
 
+[v5.1.0]: https://github.com/rinvex/laravel-authy/compare/v5.0.0...v5.1.0
 [v5.0.0]: https://github.com/rinvex/laravel-authy/compare/v4.0.1...v5.0.0
 [v4.0.1]: https://github.com/rinvex/laravel-authy/compare/v4.0.0...v4.0.1
 [v4.0.0]: https://github.com/rinvex/laravel-authy/compare/v3.0.1...v4.0.0
