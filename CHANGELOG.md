@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 
 
+## [v6.0.0] - 2019-09-23
+- Upgrade to Laravel v6 and update dependencies
+
 ## [v5.1.0] - 2019-06-02
 - Update composer deps
 - Drop PHP 7.1 travis test
@@ -61,6 +64,8 @@ This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 ## v0.0.1 - 2016-11-17
 - Tag first release
 
+[v6.0.0]: https://github.com/rinvex/laravel-authy/compare/v5.1.0...v6.0.0
+[v5.1.0]: https://github.com/rinvex/laravel-authy/compare/v5.0.0...v5.1.0
 [v5.0.0]: https://github.com/rinvex/laravel-authy/compare/v4.0.1...v5.0.0
 [v4.0.1]: https://github.com/rinvex/laravel-authy/compare/v4.0.0...v4.0.1
 [v4.0.0]: https://github.com/rinvex/laravel-authy/compare/v3.0.1...v4.0.0
