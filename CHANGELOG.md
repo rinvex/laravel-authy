@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 
 
+## [v7.1.0] - 2020-06-15
+- Drop PHP 7.2 & 7.3 support from travis
+
 ## [v7.0.0] - 2020-03-15
 - Upgrade to Laravel v7.1.x & PHP v7.4.x
 
@@ -71,6 +74,7 @@ This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 ## v0.0.1 - 2016-11-17
 - Tag first release
 
+[v7.1.0]: https://github.com/rinvex/laravel-authy/compare/v7.0.0...v7.1.0
 [v7.0.0]: https://github.com/rinvex/laravel-authy/compare/v6.0.1...v7.0.0
 [v6.0.1]: https://github.com/rinvex/laravel-authy/compare/v6.0.0...v6.0.1
 [v6.0.0]: https://github.com/rinvex/laravel-authy/compare/v5.1.0...v6.0.0
