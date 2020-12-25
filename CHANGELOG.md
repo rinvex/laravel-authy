@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 
 
+## [v8.0.1] - 2020-12-25
+- Add support for PHP v8
+
 ## [v8.0.0] - 2020-12-22
 - Upgrade to Laravel v8
 
@@ -77,6 +80,7 @@ This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 ## v0.0.1 - 2016-11-17
 - Tag first release
 
+[v8.0.1]: https://github.com/rinvex/laravel-authy/compare/v8.0.0...v8.0.1
 [v8.0.0]: https://github.com/rinvex/laravel-authy/compare/v7.1.0...v8.0.0
 [v7.1.0]: https://github.com/rinvex/laravel-authy/compare/v7.0.0...v7.1.0
 [v7.0.0]: https://github.com/rinvex/laravel-authy/compare/v6.0.1...v7.0.0
