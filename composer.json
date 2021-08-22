@@ -44,13 +44,13 @@
         }
     ],
     "require": {
-        "php": "^7.4.0 || ^8.0.0",
+        "php": "^8.0.0",
         "guzzlehttp/guzzle": "^7.2.0",
         "illuminate/support": "^8.0.0 || ^9.0.0",
-        "rinvex/authy": "^5.1.0"
+        "rinvex/authy": "^6.0.0"
     },
     "require-dev": {
-        "codedungeon/phpunit-result-printer": "^0.30.0",
+        "codedungeon/phpunit-result-printer": "^0.31.0",
         "illuminate/container": "^8.0.0 || ^9.0.0",
         "phpunit/phpunit": "^9.5.0"
     },
