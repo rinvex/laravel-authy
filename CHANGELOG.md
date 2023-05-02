@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 
 
+## [v10.1.0] - 2023-05-02
+- 422ace4: Add support for Laravel v11, and drop support for Laravel v9
+- 59d0321: Update phpunit to v10.1 from v9.5
+- 61632d8: Merge tag 'v10.0.0' into develop
+
 ## [v10.0.0] - 2023-01-09
 - Drop PHP v8.0 support and update composer dependencies
 
@@ -92,6 +97,7 @@ This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 ## v0.0.1 - 2016-11-17
 - Tag first release
 
+[v10.1.0]: https://github.com/rinvex/laravel-authy/compare/v10.0.0...v10.1.0
 [v10.0.0]: https://github.com/rinvex/laravel-authy/compare/v9.1.0...v10.0.0
 [v9.1.0]: https://github.com/rinvex/laravel-authy/compare/v9.0.0...v9.1.0
 [v9.0.0]: https://github.com/rinvex/laravel-authy/compare/v8.0.1...v9.0.0
