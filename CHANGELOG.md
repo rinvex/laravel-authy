@@ -6,9 +6,9 @@ This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 
 
 ## [v10.1.0] - 2023-05-02
-- 422ace4: Add support for Laravel v11, and drop support for Laravel v9
-- 59d0321: Update phpunit to v10.1 from v9.5
-- 61632d8: Merge tag 'v10.0.0' into develop
+- Add support for Laravel v11, and drop support for Laravel v9
+- Update phpunit to v10.1 from v9.5
+- Merge tag 'v10.0.0' into develop
 
 ## [v10.0.0] - 2023-01-09
 - Drop PHP v8.0 support and update composer dependencies
